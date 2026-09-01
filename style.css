@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: #fff;
+   background-color: rgb(25, 19, 42);
+}
+
+.logo{
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu ul, li{
+    align-items: center;
+    display: flex;
+    position: relative;
+    right: 100px;
+    left: 110px;
+    margin-top: 10px;
+    gap: 17px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: gray;
+}
+
+.menu ul  a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.btn{
+    background: linear-gradient(to right, rgb(60, 60, 117), rgb(20, 116, 212));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-right: 180px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.btn a{
+    color:white;
+    text-decoration: none;
+}
+
+.cuerpo{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.apartado{
+    
+    position: relative;
+    bottom: 734px;
+    width: 45%;
+    height: 94%;
+    color: white;
+    background-color:rgb(45, 33, 75) ;
+    padding: 20px;
+}
+
+.contenido{
+    width: 75%;
+    margin: 180px auto 0;
+    transform: translateX(35px);
+    
+}
+
+.apartado h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.apartado p{
+    margin: 20px 0 0;
+    font-size: 20px;
+}
+
+
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+     border: 2px solid gray;
+     border-radius: 5px;
+    width: fit-content;
+    margin: 40px 0 0;
+     padding: 8px;
+}
+
+ .btn2{
+    background-color: white;
+    padding: 12px 20px;
+    color: #e52747;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.btn3{
+    color: white;
+    background-color: rgb(45, 33, 75) ;
+    padding: 12px 50px;
+    border-radius: 3px ;
+    font-size: 20px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+      
+
+
+.imagen2{
+    
+    justify-content: center;
+    position: relative;
+    bottom: 1370px;
+    left: 50%;
+    width: 50%;
+    height: 120px;
+    
+    
+}
+
+.contenido2{
+    display: flex;
+    justify-content: space-evenly;
+     width: 75%;
+    margin: 140px auto 0;
+}
+
+.contenido3 h3{
+    color: #e52747;
+    font-size: 30px;
+}
+
+.contenido3 h4{
+    color: #e52747;
+    font-size: 20px;
+}
+
+.cuerpo2 h1{
+    margin: 50px;
+    font-size: 50px;
+    color: #e52747;
+    text-align: center;
+}
+
+.contenido4{
+    background-color:rgb(45, 33, 75) ;
+    color: white;
+    
+}
+
+.contenido4 h2{
+    text-align: center;
+    font-size: 50px;
+  
+}
+
+.contenido4 p{
+    text-align: center;
+    
+}
+
+.cajas{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.caja1{
+    margin: 20px;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.caja1 img{
+    align-items: center;
+    display: block;
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 60px;
+    
+}
+
+.caja1 h5{
+    text-align: center;
+    font-size: 20px;
+    color: #e52747;
+}
+
+.caja1 h4{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(71, 71, 71);
+}
+
+.sub{
+    
+    font-size: 15px;
+    color:rgb(71, 71, 71);
+}
+
+.icono{
+    display:inline-flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+.btn4 a, button{
+    border: none;
+    background: linear-gradient(to right, rgb(229, 117, 175), rgb(232, 22, 165));
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    color:white;
+    text-decoration: none;
+}
+
+.caja2{
+    margin: 20px;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.caja2 img{
+    align-items: center;
+    display: block;
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 60px;
+    
+}
+
+.caja2 h5{
+    text-align: center;
+    font-size: 20px;
+    color:rgb(71, 71, 71);
+}
+
+.caja2 h4{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(71, 71, 71);
+}
+
+.btn5 a {
+    color: white;
+    background-color: rgb(45, 33, 75) ;
+    margin: 0 auto;
+    display: block;
+    padding: 12px 40px;
+    border-radius: 5px ;
+    font-size: 17px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin:20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.parrafo{
+    font-size: 15px;
+    display: inline-flex;
+    
+}
+
+.icon{
+    display: inline-flex;
+    font-size: 20px;
+    gap: 20px;
+}
