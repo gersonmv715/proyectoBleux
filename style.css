@@ -303,67 +303,31 @@ footer{
 }
 
 
-@media (max-width: 1279px){
-
-    .menu{
-        justify-content: flex-start;
-    }
-
-    .menu .logo{
-        margin-left: 40px;
-        margin-right: auto;
-    }
-
-    .menu ul{
-        gap: 12px;
-    }
-
-    .btn{
-        margin-right: 40px;
-    }
-
+@media (max-width: 1280px) {
+    
     .apartado{
+    
     position: relative;
-    bottom: 2000px;
+    bottom: 889px;
     width: 45%;
-    height: 94%;
+    height: 96%;
     color: white;
     background-color:rgb(45, 33, 75) ;
     padding: 20px;
 }
-
-.contenido{
-    width: 75%;
-    margin: 150px auto 0;
-    transform: translateX(35px);
-    
-}
-
-
-.botones {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-     border: 2px solid gray;
-     border-radius: 5px;
-    width: fit-content;
-    margin: 20px auto 0;
-     padding: 8px;
-     
-}
-
+   
 .imagen2{
     justify-content: center;
     position: relative;
-    bottom: 1290px;
+    bottom: 1610px;
     left: 50%;
     width: 50%;
     height: 110px;
     
     
 }
-}
 
+}
 
 @media (max-width: 920px){
     .apartado{
@@ -400,10 +364,10 @@ footer{
 .imagen2{
     justify-content: center;
     position: relative;
-    bottom: 1240px;
+    bottom: 1250px;
     left: 50%;
     width: 50%;
-    height: 110px;
+    height: 100px;
     
     
 }
@@ -500,10 +464,10 @@ footer{
 .imagen2{
     justify-content: center;
     position: relative;
-    bottom: 1240px;
+    bottom: 1250px;
     left: 50%;
     width: 50%;
-    height: 100px;
+    height: 50%;
     
     
 }
@@ -560,7 +524,7 @@ footer{
 
 .cajas{
     display: flex;
-    gap: 10px;
+    gap: 5px;
     justify-content: center;
     padding:20px;
     margin:10px;
@@ -569,7 +533,7 @@ footer{
 .contenido2{
     display: flex;
     justify-content: space-evenly;
-     width: 100%;
+     width: 95%;
     margin: 150px auto 0;
     padding: 20px;
 }
@@ -577,7 +541,7 @@ footer{
 .contenido4{
     background-color:rgb(45, 33, 75) ;
     color: white;
-    width: 100%;
+    width: 94%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -588,20 +552,260 @@ footer{
 
 
 }
+.caja2{
+    margin: 10px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cuerpo2 {
+    width: 94%;
+    padding: 20px;
+}
 }
 
 
 @media (max-width: 480px){
 
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
     .apartado{
-    
-    position: relative;
-    bottom: 649px;
-    width: 45%;
-    height: 94%;
+        position: relative;
+        inset: auto;
+        z-index: 1;
+        width: 100%;
+        height: auto;
+        color: white;
+        background-color: rgba(45, 33, 75, 0.92);
+        padding: 70px 24px 35px;
+    }
+
+ .menu{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   align-items: center;
+    gap: 8px;
+   color: #fff;
+   background-color: rgb(25, 19, 42);
+   padding: 0 14px;
+}
+
+.logo{
+    margin: 10px auto 10px 0;
+}
+
+.logo img{
+    display: block;
+    max-width: 105px;
+    height: auto;
+}
+
+.menu ul{
+    order: 3;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    padding-bottom: 12px;
+}
+
+.menu li{
+    font-size: 13px;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: gray;
+}
+
+.btn{
+    background: linear-gradient(to right, rgb(60, 60, 117), rgb(20, 116, 212));
+    padding: 10px;
+    border-radius: 5px;
     color: white;
-    background-color:rgb(45, 33, 75) ;
-    padding: 20px;
+    border: none;
+    margin-top: 15px;
+}
+
+.contenido{
+    width: 100%;
+    margin: 0;
+    transform: none;
+}
+
+.apartado h1{
+
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.apartado p{
+    margin: 20px 0 0;
+    font-size: 17px;
+}
+
+.apartado p br,
+.contenido4 p br,
+.contenido3 p br,
+.caja1 p br,
+.caja2 p br{
+    display: none;
+}
+
+
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+     border: 2px solid gray;
+     border-radius: 5px;
+    width: fit-content;
+    width: 100%;
+    margin: 30px 0 0;
+     padding: 8px;
+}
+
+ .btn2{
+    background-color: white;
+    padding: 10px 18px;
+    color: #e52747;
+    border-radius: 3px;
+    border: none;
+    flex: 1 1 140px;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+
+.btn3{
+    color: white;
+    background-color: rgb(45, 33, 75) ;
+    flex: 1 1 140px;
+    padding: 12px 20px;
+    text-align: center;
+    border-radius: 3px ;
+    font-size: 20px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+      
+
+
+.imagen2{
+    position: relative;
+    inset: auto;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    padding: 0 0 35px;
+    text-align: center;
+}
+
+.imagen2 img{
+    display: block;
+    width: min(72%, 280px) !important;
+    height: auto !important;
+    margin: 0 auto;
+}
+
+.cuerpo{
+    height: auto;
+    min-height: 0;
+}
+
+.img1{
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.cuerpo2{
+    width: 100%;
+    padding: 0 20px 25px;
+}
+
+.cuerpo2 h1,
+.contenido4 h2{
+    margin: 35px 0;
+    font-size: 36px;
+}
+
+.contenido2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+
+.contenido2 > img{
+    width: 100% !important;
+    height: auto !important;
+}
+
+.contenido3 h3{
+    font-size: 26px;
+}
+
+.contenido4{
+    width: 100%;
+    margin: 0;
+    padding: 1px 20px 30px;
+}
+
+.contenido4 p{
+    line-height: 1.6;
+}
+
+.cajas{
+    flex-direction: column;
+    align-items: stretch;
+    gap: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.caja1,
+.caja2{
+    width: 100%;
+    margin: 0;
+    padding: 28px 20px;
+}
+
+.icono{
+    white-space: normal;
+}
+
+footer{
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin: 0;
+    padding: 25px 15px;
+}
+
+.parrafo2 p{
+    line-height: 1.5;
 }
 
 }
