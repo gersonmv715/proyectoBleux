@@ -56,15 +56,14 @@
 }
 
 .cuerpo{
-    position: relative;
+    background-image: url('./imagenes/assest/hojasFondo.jpg');
+    background-size: cover;
+    
     width: 100%;
     height: 100vh;
 }
 
 .apartado{
-    
-    position: relative;
-    bottom: 734px;
     width: 45%;
     height: 94%;
     color: white;
@@ -74,7 +73,7 @@
 
 .contenido{
     width: 75%;
-    margin: 180px auto 0;
+    margin: 100px auto 0;
     transform: translateX(35px);
     
 }
@@ -125,13 +124,12 @@
 
 
 .imagen2{
-    
-    justify-content: center;
     position: relative;
-    bottom: 1370px;
+    bottom: 650px;
+    justify-content: center;
     left: 50%;
-    width: 50%;
-    height: 120px;
+   
+   
     
     
 }
@@ -306,123 +304,183 @@ footer{
 @media (max-width: 1280px) {
     
     .apartado{
-    
-    position: relative;
-    bottom: 889px;
     width: 45%;
-    height: 96%;
-    color: white;
-    background-color:rgb(45, 33, 75) ;
+    height: 95%;
     padding: 20px;
+}
+
+.contenido{
+    width: 75%;
+    margin: 190px auto 0;
+    transform: translateX(35px);
+    
 }
    
 .imagen2{
     justify-content: center;
     position: relative;
-    bottom: 1610px;
+    bottom: 750px;
+    left: 50%;
+    
+    
+    
+    
+}
+}
+
+@media (min-width: 921px) {
+    .apartado{
+
+    bottom: 649px;
+    width: 45%;
+    height: 94%;
+    padding: 20px;
+
+}
+
+  .contenido{
+    width: 75%;
+    margin: 90px auto 0;
+    transform: translateX(35px);
+    
+}
+
+.imagen2{
+    justify-content: center;
+    position: relative;
+    bottom: 550px;
     left: 50%;
     width: 50%;
-    height: 110px;
-    
-    
+
+}
+
+.botones {
+       gap: 10px;
+    margin: 30px 0 0;
+     padding: 5px;
+}
+
+.btn2{
+    padding: 10px 15px;
+}
+
+
+.btn3{
+    padding: 10px 15px;
 }
 
 }
 
 @media (max-width: 920px){
     .apartado{
-    
-    position: relative;
-    bottom: 649px;
+
+    bottom: 550px;
     width: 45%;
     height: 94%;
-    color: white;
-    background-color:rgb(45, 33, 75) ;
-    padding: 20px;
+    
 }
 
 .contenido{
     width: 75%;
-    margin: 150px auto 0;
+    margin: 100px auto 0;
     transform: translateX(35px);
     
 }
 
 
 .botones {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-     border: 2px solid gray;
-     border-radius: 5px;
-    width: fit-content;
-    margin: 20px auto 0;
-     padding: 8px;
+    
+    gap: 10px;
+    margin: 10px auto 0;
+     padding: 5px;
      
 }
 
 .imagen2{
-    justify-content: center;
-    position: relative;
-    bottom: 1250px;
+    
+    bottom: 550px;
     left: 50%;
-    width: 50%;
-    height: 100px;
+    width: 50%;    
+}
+
+
+.btn2{
+    padding: 10px 15px;
+}
+
+
+.btn3{
+    padding: 10px 15px;
+}
+
+
+
+}
+
+
+@media (min-width: 769px){
+    .apartado{
+
+    bottom: 550px;
+    width: 45%;
+    height: 94%;
     
+}
+
+.contenido{
+    width: 75%;
+    margin: 80px auto 100px;
+    transform: translateX(35px);
     
 }
 
-.menu{
-    display: flex;
-   justify-content: flex-start;
-   align-items: center;
-   gap: 20px;
-   color: #fff;
-   background-color: rgb(25, 19, 42);
-}
 
-.menu .logo{
-    margin-right: auto;
-}
-
-.menu ul{
-    display: flex;
-    align-items: center;
-    gap: 27px;
-    list-style: none;
-}
-
-.menu li{
-    font-size: 17px;
-}
-
-.btn5 a {
-    text-align: center;
-    color: white;
-    background-color: rgb(45, 33, 75) ;
-    margin: 0 auto;
-    display: block;
-    padding: 12px 20px;
-    border-radius: 5px ;
-    font-size: 17px;
-    border: 1px solid white;
-    text-decoration: none;
-}
-
-.btn{
+.botones {
     
-    background: linear-gradient(to right, rgb(60, 60, 117), rgb(20, 116, 212));
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
-    border: none;
-    margin-top: 15px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin: 10px auto 0;
+     padding: 5px;
+     
 }
+
+.imagen2{
+    
+    bottom: 550px;
+    left: 50%;
+    width: 50%;    
+}
+
+
+.btn2{
+    padding: 5px 2px;
+}
+
+
+.btn3{
+    padding: 5px 1px;
+}
+
+.cajas{
+    gap: 3px;
+}
+
+.caja1{
+    margin: 15px;
+    padding: 30px;
+    border-radius: 15px;
+   
 
 }
 
+.caja2{
+    margin: 15px;
+    padding: 30px;
+    border-radius: 15px;
+   
+
+}
+
+}
 @media (max-width: 768px){
 
     body{
@@ -431,108 +489,54 @@ footer{
         margin:auto;
     }
      .apartado{
-    
-    position: relative;
-    bottom: 649px;
+    bottom: 540px;
     width: 45%;
     height: 94%;
-    color: white;
-    background-color:rgb(45, 33, 75) ;
-    padding: 20px;
+    
 }
 
 .contenido{
     width: 75%;
-    margin: 150px auto 0;
+    margin: 90px auto 0;
     transform: translateX(35px);
     
 }
 
 
 .botones {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-     border: 2px solid gray;
-     border-radius: 5px;
-    width: fit-content;
+    gap: 10px;
     margin: 20px auto 0;
-     padding: 8px;
+     padding: 5px;
      
 }
 
 .imagen2{
-    justify-content: center;
-    position: relative;
-    bottom: 1250px;
+    bottom: 550px;
     left: 50%;
     width: 50%;
-    height: 50%;
-    
-    
 }
 
-.menu{
-    width: 100%;
-    display: flex;
-   justify-content: flex-start;
-   align-items: center;
-   gap: 20px;
-   color: #fff;
-   background-color: rgb(25, 19, 42);
-}
 
-.menu .logo{
-    margin-right: auto;
-}
-
-.menu ul{
-    display: flex;
-    align-items: center;
-    gap: 27px;
-    list-style: none;
-}
-
-.menu li{
-    font-size: 17px;
-}
 
 .btn5 a {
-    text-align: center;
-    color: white;
-    background-color: rgb(45, 33, 75) ;
-    margin: 0 auto;
-    display: block;
     padding: 12px 20px;
-    border-radius: 5px ;
-    font-size: 17px;
-    border: 1px solid white;
-    text-decoration: none;
 }
 
 .btn{
-    
-    background: linear-gradient(to right, rgb(60, 60, 117), rgb(20, 116, 212));
+
     padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
-    border: none;
     margin-top: 15px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
 
 .cajas{
-    display: flex;
     gap: 5px;
-    justify-content: center;
     padding:20px;
     margin:10px;
 }
 
-.contenido2{
-    display: flex;
-    justify-content: space-evenly;
+.contenido2{ 
      width: 95%;
     margin: 150px auto 0;
     padding: 20px;
@@ -556,12 +560,28 @@ footer{
     margin: 10px;
     padding: 30px;
     border-radius: 15px;
-    background-color: #fff;
-    color: black;
-    display: flex;
-    flex-direction: column;
-
+    
 }
+
+.botones {
+    
+    gap: 10px;
+    margin: 10px auto 0;
+     padding: 5px;
+     
+}
+
+
+
+.btn2{
+    padding: 5px 2px;
+}
+
+
+.btn3{
+    padding: 5px 1px;
+}
+
 
 .cuerpo2 {
     width: 94%;
@@ -809,3 +829,181 @@ footer{
 }
 
 }
+
+
+@media (min-width: 481px){
+
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .menu{
+        flex-wrap: wrap;
+        gap: 12px;
+        padding: 0 24px 12px;
+    }
+
+    .logo{
+        margin: 10px auto 10px 0;
+    }
+
+    .logo img{
+        display: block;
+        max-width: 125px;
+        height: auto;
+    }
+
+    .menu ul{
+        order: 3;
+        width: 100%;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .menu li{
+        font-size: 15px;
+    }
+
+    .btn{
+        margin: 10px 0;
+    }
+
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        min-height: 0;
+        background-position: center;
+    }
+
+    .apartado{
+        position: relative;
+        inset: auto;
+        width: 100%;
+        height: auto;
+        padding: 60px 48px 40px;
+    }
+
+    .contenido{
+        width: 100%;
+        margin: 0;
+        transform: none;
+    }
+
+    .apartado h1{
+        font-size: 58px;
+    }
+
+    .apartado p{
+        font-size: 18px;
+    }
+
+    .apartado p br,
+    .contenido4 p br,
+    .contenido3 p br,
+    .caja1 p br,
+    .caja2 p br{
+        display: none;
+    }
+
+    .botones{
+        width: 100%;
+        justify-content: center;
+        margin: 30px 0 0;
+    }
+
+    .btn2,
+    .btn3{
+        flex: 1 1 180px;
+        text-align: center;
+    }
+
+    .imagen2{
+        position: relative;
+        inset: auto;
+        width: 100%;
+        height: auto;
+        padding: 35px 0 45px;
+        text-align: center;
+    }
+
+    .imagen2 img{
+        display: block;
+        width: min(50%, 280px) !important;
+        height: auto !important;
+        margin: 0 auto;
+    }
+
+    .cuerpo2{
+        width: 100%;
+        padding: 0 32px 35px;
+    }
+
+    .cuerpo2 h1,
+    .contenido4 h2{
+        margin: 40px 0;
+        font-size: 42px;
+    }
+
+    .contenido2{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        gap: 30px;
+    }
+
+    .contenido2 > img{
+        width: min(100%, 480px) !important;
+        height: auto !important;
+        margin: 0 auto;
+    }
+
+    .contenido3 h3{
+        font-size: 28px;
+    }
+
+    .contenido4{
+        width: 100%;
+        margin: 0;
+        padding: 1px 32px 35px;
+    }
+
+    .contenido4 p{
+        line-height: 1.6;
+    }
+
+    .cajas{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .caja1,
+    .caja2{
+        min-width: 0;
+        margin: 0;
+        padding: 28px 18px;
+    }
+
+    .icono{
+        white-space: normal;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        margin: 0;
+        padding: 25px 15px;
+    }
+
+}
+
+
